@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Granito de Café</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header id="inicio" class="encabezado">
+        <h1>Granito de Café</h1>
+        <p class="eslogan">Cafetería en Santo Domingo</p>
+        <p class="horario">Abierto de lunes a sábado, 7:00 - 20:00</p>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#servicios">Menú</a>
+            <a href="#galeria">Productos</a>
+            <a href="#promociones">Promociones</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+
+        <section id="nosotros">
+            <h2>Sobre nosotros</h2>
+            <p>Granito de Café nació en 2021 como un pequeño local familiar en el centro de Santo Domingo. Trabajamos con café de productores de la zona y preparamos todo en el momento.</p>
+            <p>Además del café, tenemos <span class="destacado">bolones, humitas y postres caseros</span> para acompañar.</p>
+            <p>Si quieres saber más sobre el café puedes leer <a href="https://es.wikipedia.org/wiki/Caf%C3%A9" target="_blank" rel="noopener noreferrer">aquí</a>.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Menú</h2>
+            <p>Lo que más piden nuestros clientes:</p>
+
+            <div class="tarjeta">
+                <ul>
+                    <li>Capuchino</li>
+                    <li>Bolón de verde</li>
+                    <li>Espresso</li>
+                    <li>Torta de chocolate</li>
+                </ul>
+            </div>
+
+            <table>
+                <tr>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Espresso</td>
+                    <td>Café corto e intenso</td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td>Capuchino</td>
+                    <td>Espresso con leche y espuma</td>
+                    <td>$2.25</td>
+                </tr>
+                <tr>
+                    <td>Frappé</td>
+                    <td>Café frío con crema</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Bolón de verde</td>
+                    <td>Con queso o chicharrón</td>
+                    <td>$2.50</td>
+                </tr>
+                <tr>
+                    <td>Torta de chocolate</td>
+                    <td>Porción</td>
+                    <td>$2.75</td>
+                </tr>
+                <tr>
+                    <td>Croissant</td>
+                    <td>Recién horneado</td>
+                    <td>$1.50</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="galeria">
+            <h2>Nuestros productos</h2>
+            <div class="galeria">
+                <a href="https://www.google.com/search?q=espresso" target="_blank" rel="noopener noreferrer">
+                    <img src="imagenes/imagen1.jpg" alt="Espresso">
+                </a>
+                <a href="https://www.google.com/search?q=capuchino" target="_blank" rel="noopener noreferrer">
+                    <img src="imagenes/imagen2.jpg" alt="Capuchino">
+                </a>
+                <img src="imagenes/imagen3.jpg" alt="Frappé">
+                <img src="imagenes/imagen4.jpg" alt="Bolón de verde">
+                <img src="imagenes/imagen5.jpg" alt="Torta de chocolate">
+                <img src="imagenes/imagen6.jpg" alt="Croissant">
+            </div>
+        </section>
+
+        <!-- seccion del reto -->
+        <section id="promociones">
+            <h2>Promociones</h2>
+            <p>Todos los martes el capuchino está al 2x1, solo en el local.</p>
+            <p>Y de lunes a viernes, si pides un café con una porción de torta te sale en $4.50.</p>
+            <div class="promos">
+                <img src="imagenes/promo1.jpg" alt="Capuchino 2x1">
+                <img src="imagenes/promo2.jpg" alt="Combo café y torta">
+            </div>
+            <p>Síguenos en <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a> para ver las promos nuevas.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Atendemos de lunes a sábado de 7:00 a 20:00.</p>
+
+            <form>
+                <label>Nombre:</label>
+                <input type="text" placeholder="Tu nombre">
+
+                <label>Correo:</label>
+                <input type="email" placeholder="Tu correo">
+
+                <label>Mensaje:</label>
+                <textarea placeholder="Escribe tu mensaje"></textarea>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+
+            <p>Ubicación: <a href="https://www.google.com/maps/search/Santo+Domingo+de+los+Ts%C3%A1chilas" target="_blank" rel="noopener noreferrer">ver en Google Maps</a></p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Granito de Café - Santo Domingo, Ecuador</p>
+    </footer>
+
+</body>
+</html>
