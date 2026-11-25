@@ -273,3 +273,17 @@ footer {
     padding: 20px;
     font-size: 13px;
 }
+.boton-reserva {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #b08968;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.boton-reserva:hover {
+    background-color: #e6ccb2;
+    color: #3b2418;
+}
